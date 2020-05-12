@@ -8,6 +8,8 @@ Includes statistics and obnoxious sounds!
 
 Requires the sox utility (available on Linux, MacOS and Windows).
 
+`apt-get install sox` or `pacman -Syu install sox` or `brew install sox` or zoop -> http://sox.sourceforge.net/.
+
 ## Usage
 
 `$ python3 alphabet.py ["alternative_string"]`
