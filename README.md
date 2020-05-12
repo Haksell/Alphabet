@@ -20,6 +20,8 @@ Requires the sox utility (available on Linux, MacOS and Windows).
 
 `$ python3 alphabet.py "the quick brown fox jumps over the lazy dog"` -> Pangram practice
 
+`$ python3 alphabet.py "import matplotlib.pyplot as plt\nimport numpy as np"` -> Make Python a superset of MATLAB
+
 ## Fun fact
 
 Holding the Enter key down makes a pretty neat sound.
