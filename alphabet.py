@@ -12,7 +12,7 @@ def get_avg(results, *, size, skip):
     return mean(counting)
 
 
-phrase = "abcdefghijklmnopqrstuvwxyz" if len(argv) == 1 else argv[1]
+phrase = "abcdefghijklmnopqrstuvwxyz" if len(argv) == 1 else " ".join(argv[1:])
 results = []
 best_single = inf
 best_avg5 = inf
