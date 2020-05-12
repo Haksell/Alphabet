@@ -1,8 +1,6 @@
 # Alphabet
 
-A successful company, but more importantly, an application to learn to type the alphabet as quickly as possible.
-
-Includes statistics and obnoxious sounds!
+Learn to type the alphabet as quickly as possible. Includes statistics and obnoxious sounds!
 
 ## Requirements
 
