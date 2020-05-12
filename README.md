@@ -4,14 +4,20 @@ A successful company, but more importantly, an application to learn to type the 
 
 Includes statistics and obnoxious sounds!
 
-# Requirements
+## Requirements
 
 Requires the sox utility (available on Linux, MacOS and Windows).
 
-# Usage
+## Usage
 
 `$ python3 alphabet.py ["alternative_string"]`
 
-# Fun fact
+## Examples
+
+`$ python3 alphabet.py` -> Train the alphabet
+
+`$ python3 alphabet.py "the quick brown fox jumps over the lazy dog"` -> Pangram practice
+
+## Fun fact
 
 Holding the Enter key down makes a pretty neat sound.
