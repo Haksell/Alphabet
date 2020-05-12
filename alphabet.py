@@ -6,6 +6,7 @@ from time import time
 
 
 def truncated_mean(results, *, size, skip):
+    assert skip * 2 < size
     if size > len(results):
         return math.inf
     counting = sorted(results[-size:])[skip:-skip]
