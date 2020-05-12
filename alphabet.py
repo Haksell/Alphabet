@@ -14,12 +14,18 @@ def truncated_mean(results, *, size, skip):
 
 
 phrase = "abcdefghijklmnopqrstuvwxyz" if len(sys.argv) == 1 else " ".join(sys.argv[1:])
+lines = 1 + phrase.count("\\n")
 results = []
 best_single = best_avg5 = best_avg25 = math.inf
 
 while True:
-    t0 = time()
-    attempt = input().strip()
+    # Multiline input
+    t0 = time()  # Super imprecise and takes into account code execution time
+    attempt = []
+    for i in range(lines):
+        attempt.append(input())
+    attempt = "\\n".join(attempt)
+    # Yay or nay?
     if attempt == phrase:
         print("SUCCESS")
         os.system("play -q -V0 success.wav&")  # -q means no output, -V0 suppresses warnings and & means async, I think
