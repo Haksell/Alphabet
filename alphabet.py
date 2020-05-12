@@ -42,7 +42,7 @@ while True:
     best_avg5 = min(avg5, best_avg5)
     best_avg25 = min(avg25, best_avg25)
     # Output
-    print(f"Single: {single:5.2f} - Best single: {best_single:.2f}")
-    print(f"Avg5:   {avg5:5.2f} - Best avg5:   {best_avg5:.2f}")
-    print(f"Avg25:  {avg25:5.2f} - Best avg25:  {best_avg25:.2f}")
+    print(f"Single: {single:5.2f} | Best single: {best_single:.2f}")
+    print(f"Avg5:   {avg5:5.2f} | Best avg5:   {best_avg5:.2f}")
+    print(f"Avg25:  {avg25:5.2f} | Best avg25:  {best_avg25:.2f}")
     print()
