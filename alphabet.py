@@ -22,11 +22,11 @@ while True:
     attempt = input().strip()
     if attempt == phrase:
         print("SUCCESS")
-        os.system("play -q success.mp3&")  # -q means no output and & means async, I think
+        os.system("play -q -V0 success.wav&")  # -q means no output, -V0 suppresses warnings and & means async, I think
         single = time() - t0
     else:
         print("FAILURE")
-        os.system("play -q failure.mp3&")
+        os.system("play -q -V0 failure.wav&")
         single = math.inf
     results.append(single)
     # Stats
